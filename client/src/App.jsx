@@ -1,12 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { GameContainer } from "./components/GameContainer";
 
 function App() {
-  return (
-    <p>
-      Cleanedup React App
-    </p>
-  );
+    return (
+        <React.Fragment>
+            <GameContainer />
+        </React.Fragment>
+    );
 }
 
 export default App;
