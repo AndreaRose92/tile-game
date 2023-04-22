@@ -2,7 +2,7 @@ import React from "react";
 import { TileBox } from "../styles/GameStyles";
 
 export const Tile = ({ value }) => {
-    if (value !== null) {
+    if (value > 0) {
         let color = value;
         while (color >= 4) {
             color -= 4;

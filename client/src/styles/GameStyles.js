@@ -15,10 +15,10 @@ export const TileBox = styled.div`
     justify-content: center;
     background-color: ${props => {
         switch (props.variant) {
-            case 0: return "tan";
-            case 1: return "crimson";
-            case 2: return "violet";
-            case 3: return "green";
+            case 1: return "tan";
+            case 2: return "darkred";
+            case 3: return "purple";
+            case 0: return "khaki";
             default: return "orange"
         }
     }};
